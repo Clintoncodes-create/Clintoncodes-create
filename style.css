@@ -358,7 +358,12 @@
         .hero-text{
             font-size: 80%;
         }
-
+        
+        
+  .hero-text p{
+            font-size: 19px;
+        }
+        
 
         main{
             font-size: 80%;
@@ -369,10 +374,15 @@
             margin-top: 5rem;
             padding-left: 2rem;
             color: #fff;
-              font-size: 1.1rem;
+            
            
         }
     
+         .hero-section h2{
+           font-size: 1rem;
+            
+           
+        }
         
         #hide{
             display: none;
