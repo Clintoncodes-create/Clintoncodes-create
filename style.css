@@ -356,12 +356,12 @@
       
 
         .hero-text{
-            font-size: 80%;
+            font-size: 95%;
         }
         
         
   .hero-text p{
-            font-size: 19px;
+            font-size: 1.1rem;
         }
         
 
@@ -371,8 +371,8 @@
         
         
         .hero-section{
-            margin-top: 5rem;
-            padding-left: 2rem;
+            margin-top: 3rem;
+            padding-left: 1rem;
             color: #fff;
             
            
@@ -398,7 +398,7 @@
 
         .link{
            padding: 10px 25px;
-           font-size: 1rem;
+           font-size: 1.1rem;
            display: inline-block;
            text-shadow: 0.2px 0.2px black;
        }
@@ -406,6 +406,7 @@
        .link h6{
         padding-bottom: 0;
         margin-bottom: 0;
+           font-size:18px;
        }
         
         .hero-section a:hover{
