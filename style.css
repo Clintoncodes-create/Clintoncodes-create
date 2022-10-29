@@ -612,7 +612,7 @@ text-align: left;
 @media (max-width: 00px){
     body{
         margin: unset;
-        font-size: 1.5rem;
+        font-size: 2rem;
         line-height: 1.5;
         
         
@@ -627,7 +627,7 @@ text-align: left;
    
        padding-bottom: 1PX;
         display:inline-block;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
 
