@@ -1,0 +1,855 @@
+*{ padding: 0%;
+    margin: 0%;
+    }
+    
+    
+    body{
+        
+        font-family:'Montserrat', sans-serif;
+        color: #fff;
+        font-size: 1.6rem;
+    }
+    #bg-img{
+        background: url("images/banners.jpg");
+        background-size: cover;
+        background-position: center;
+        
+        height: 100vh;
+        
+        }
+
+    .header{display: flex;
+    justify-content: space-between;
+   padding: 1rem 4rem;color: #fff;}
+
+
+ html{
+    scroll-behavior: smooth;
+ }
+    
+    .logo{
+       
+        padding-bottom: 1rem;
+        color: rgb(252, 250, 247);
+        color: #fff;
+        border-bottom: 1px solid white;
+       display: block;
+       border-width: 100%;
+        font-size: .7em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+    }
+    
+    .hero-section{
+        margin-top: 3rem;
+        padding-left: 4rem;
+      
+        font-size: 1.5rem;
+        color: #fff;
+ 
+    
+    }
+
+    #bg{
+        background: url("images/banner.png");
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    .hero-section span{
+        color: rgb(247, 43, 111);
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .hero-img{
+        width: 40%;
+    }
+
+    .hero-img img{
+        width: 100%;
+    }
+
+    
+    #hide{
+        display: none;
+    }
+    
+    .hero-section a{text-decoration: none;
+        color:#fff;
+       
+         
+    }
+
+    .cont-box{
+        width: 50%;
+    }
+
+    .cont-b{
+        width: 60%;
+    }
+
+    .logo span{
+        
+    }
+
+    .link{
+         background:rgb(1, 138, 223);
+        padding: 10px 45px;
+        font-size: 1.8rem;
+        border-radius: 50px;
+        display: inline-block;
+        text-shadow: 0.2px 0.2px black;
+    }
+
+    .link h6{
+        text-align: center;
+        font-weight: lighter;
+        color: #fff;
+        opacity: 0.6;
+    }
+
+    .circles li { 
+        position: absolute; 
+        display: block; 
+        list-style:none;
+         width: 20px; height: 20px; background:rgba(12, 115, 218, 0.2); 
+         animation: 25s linear 0s infinite normal none running animate;
+          bottom: -150px; }
+
+    .circles li:nth-child(1) {
+         left: 25%; width: 50px; height: 50px; border-radius: 50%; animation-delay: 0s; }
+
+.circles li:nth-child(2) { 
+    
+    left: 10%; width: 20px; height: 20px; animation-delay: 2s; animation-duration: 10s; }
+
+.circles li:nth-child(3) { left: 70%; width: 20px; height: 20px; animation-delay: 2s; }
+
+.circles li:nth-child(4) { left: 40%; width: 60px; height: 60px; animation-delay: 0s; animation-duration: 10s; }
+
+.circles li:nth-child(5) { left: 65%; width: 20px; height: 20px; animation-delay: 0s; }
+
+.circles li:nth-child(6) { left: 75%; width: 110px; height: 110px; animation-delay: 3s; }
+
+.circles li:nth-child(7) { left: 15%; width: 5px; height: 5px; animation-delay: 7s; }
+
+.circles li:nth-child(8) { left: 50%; width: 25px; height: 25px; animation-delay: 15s; animation-duration: 45s; }
+
+.circles li:nth-child(9) { left: 20%; width: 15px; height: 15px; animation-delay: 2s; animation-duration: 35s; }
+
+.circles li:nth-child(10) { left: 85%; width: 50px; height: 50px; animation-delay: 0s; animation-duration: 11s; }
+
+@keyframes animate { 
+  0% { transform: translateY(0px) rotate(0deg); opacity: 1; border-radius: 0px; }
+  100% { transform: translateY(-1000px) rotate(720deg); opacity: 0; border-radius: 50%; }
+}
+    
+    .hero-section a:hover{
+        transform: translateY(50%);
+        
+    }
+
+    .pook{
+        
+        width: 100%;
+    }
+    
+    .hero-section p{
+        padding-bottom: 2rem;}
+
+    .about-section{
+
+        padding-top: 5rem;
+        background: rgb(253, 252, 250);
+        color: black; 
+        
+    }
+
+
+    .about-section P{
+        margin-bottom: 2rem;
+        line-height: 1.2;
+    }
+
+    .about-section a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .about-section h2{
+     padding-bottom: 1rem;
+     text-align: center;
+    }
+     
+    .containerA{
+        display: flex;
+    justify-content: space-between;
+       margin-bottom: 2rem;
+     background: rgb(253, 252, 250);
+       color: black;
+       padding: 5rem 4rem;
+    }
+
+    .containerB{
+        display: flex;
+    justify-content: space-between;
+       margin-bottom: 9rem;
+       align-items: flex-start;
+       padding: 5rem 4rem;
+       color: #fff;
+       
+    }
+
+    .containerB ul {
+        margin-top: 2rem;
+    }
+
+    .containerB h2{
+        text-align: unset;
+       
+    }
+
+    .contB-content{
+        width: 50%;
+    }
+
+    .contB-content h3{
+        padding-top: 7rem;
+        text-transform: uppercase;
+    }
+    
+    .cont-img{
+        width: 40%;
+    }
+    #stats-img{
+        width: 100%;
+    }
+
+    #hideb{
+        display: none;
+    }
+
+    #title{
+        color: rgb(247, 43, 111);
+        font-size: 2.5rem;
+    }
+.approach-section h2{
+   text-align: unset;
+    padding-bottom: 1rem;
+   
+}
+
+.containerC{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 7rem;
+}
+
+.containerD{
+    display: flex;
+    justify-content: space-around;
+}
+
+.platform-section{
+    background: rgb(38, 36, 36);
+    color: #fff;
+    padding: 7rem 7rem;
+
+}
+
+.vision-section{
+    background: rgb(249, 248, 248);
+ color: black;
+    padding: 7rem 7rem;
+
+}
+
+.containerV{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-section{
+    padding: 5rem 0;
+    background:rgb(38, 36, 36); ;
+    color: #fff;
+}
+
+.contact-section h2{
+    text-align: left;
+}
+.containerE {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    
+}
+
+.cont-container{
+    padding-top: 0;
+    margin-top: 0;
+}
+#my-img{
+        width: 100%;
+        border-radius: 50%;
+        border: 5px solid rgb(245, 14, 91);
+    }
+
+    .card-img{
+        width: 300px;
+    }
+
+    #orange{
+        color: rgb(247, 43, 111);
+        font-weight: bold;
+    }
+
+    .card ul {
+       
+        
+    }
+
+    .card li{
+        padding-top: 1rem;
+    }
+
+    .audit, #p1{
+        padding: 1rem 0;
+    }
+
+   
+
+  
+    div{
+
+    }
+    @media (max-width: 420px) and (orientation: portrait), (max-height: 560px){
+        
+        body{
+            margin: unset;
+            font-size: 18px;
+            line-height: 1.5;
+            
+            
+        }
+
+        .pook{
+            width: 95%;
+        }
+
+    
+        .header{
+            padding-left: 2rem;
+            padding-top: 2rem;
+         }
+        .logo{
+       
+           padding-bottom: 1PX;
+            display:inline-block;
+            font-size: .5rem;
+        }
+
+
+      
+
+        .hero-text{
+            font-size: 80%;
+        }
+
+
+        main{
+            font-size: 80%;
+        }
+        
+        
+        .hero-section{
+            margin-top: 5rem;
+            padding-left: 2rem;
+            color: #fff;
+              font-size: 1rem;
+           
+        }
+    
+        
+        #hide{
+            display: none;
+        }
+        
+        .hero-section a{text-decoration: none;
+            color:#fff;
+            padding: 2px 20px;
+            border-radius: 20px;
+            font-size: 1rem;
+
+        }
+
+        .link{
+           padding: 10px 25px;
+           font-size: 1rem;
+           display: inline-block;
+           text-shadow: 0.2px 0.2px black;
+       }
+
+       .link h6{
+        padding-bottom: 0;
+        margin-bottom: 0;
+       }
+        
+        .hero-section a:hover{
+            transform: translateY(50%);
+            
+        }
+        
+        .hero-section p{
+            padding-bottom: 2rem;}
+    
+        .about-section{
+    
+            
+            background: rgb(253, 252, 250);
+            color: black; 
+           
+           
+            
+        }
+
+
+        #conb-img{
+            
+                width: 50%;
+                padding-left:5rem ;
+            
+        }
+
+        .cont-box{
+            width: 100%;
+        }
+
+        
+    .cont-img{
+       width: 100%;
+    }
+        
+    
+        .about-section h2{
+         padding-bottom: 1rem;
+         text-align: center;
+         font-size: 1rem;
+        }
+         
+        .about-section p{
+           
+        }
+        .containerA{
+            display: block;
+           margin-bottom: 2rem;
+         background: rgb(253, 252, 250);
+           color: black;
+           margin: 3rem .8rem;
+           padding: unset;
+        }
+
+        .containerA h3{
+            text-align: center;
+            margin: 1rem 0;
+        }
+    
+        .containerB{
+            display: block;
+         margin-bottom: unset;
+           padding: unset;
+           color: #fff;
+           padding: 2rem 0 7rem 2rem;
+        }
+
+       
+    
+        .containerB ul {
+            margin-top: 2rem;
+        }
+    
+        .containerB h2{
+            text-align: unset;
+    }
+
+    .containerB ul {
+        margin-top: 2rem;
+    }
+
+    .containerB h2{
+        text-align: unset;
+      
+       
+    }
+
+    .contB-content{
+        width: 100%;
+    }
+
+    .contB-content h3{
+        padding-top: 4rem;
+        text-transform: uppercase;
+    }
+
+    .contB-content p{
+        margin-bottom: 1.7rem;
+    }
+
+    
+
+    #title{
+    
+        font-size: 1.5rem;
+    }
+.approach-section h2{
+   text-align: left;
+    padding-bottom: 1rem;
+   
+}
+
+.containerC{
+    display: block;
+    text-align: center;
+    padding: 2rem 0rem 7rem 2rem;
+   
+    
+}
+
+.containerC h3{
+    padding-bottom: 1rem;
+}
+
+.containerD{
+    display:block;
+    padding: 2rem 0rem 7rem 2rem;
+    margin: unset;
+   
+}
+.platform-section{
+     background: rgb(38, 36, 36);
+     color: #fff;
+     padding: unset;
+     margin: unset;
+    
+
+}
+
+.platform-section h2{
+    text-align: left;
+}
+
+.vision-section{
+    background: rgb(249, 248, 248);
+ color: black;
+    padding: 7rem 0rem 7rem 2rem;
+
+}
+
+.vision-section h2{
+    text-align: left;
+}
+
+.containerV{
+    display: block;
+   
+}
+
+
+.contact-section{
+     
+    padding: 2rem 0rem 7rem 2rem;
+   
+}
+.containerE {
+    
+  display: block;
+
+    
+}
+
+.card h2{
+text-align: left;
+}
+#my-img{
+        width: 100%;
+        border-radius: 50%;
+        border: 5px solid rgb(232, 45, 226);
+    }
+
+    .card-img{
+        width: 150px;
+    }
+
+    
+
+    .card ul {
+       
+        
+    }
+
+    .card li{
+        padding-top: 1rem;
+    }
+
+    .audit, #p1{
+        padding: 1rem 0;
+    }
+
+    
+.stats-img{
+    width: 100%;
+}
+
+#hideC{
+    display: none;
+}
+}
+
+
+@media (max-width: 00px){
+    body{
+        margin: unset;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        
+        
+    }
+
+
+    .header{
+        padding-left: 2rem;
+        padding-top: 2rem;
+     }
+    .logo{
+   
+       padding-bottom: 1PX;
+        display:inline-block;
+        font-size: 1rem;
+    }
+
+
+  
+
+    .hero-text{
+        font-size: 80%;
+    }
+
+
+    main{
+        font-size: 80%;
+    }
+    
+    
+    .hero-section{
+        margin-top: 5rem;
+        padding-left: 2rem;
+        color: #fff;
+          font-size: 1.7rem;
+       
+    }
+
+    
+    #hide{
+        display: none;
+    }
+    
+    .hero-section a{text-decoration: none;
+        color:#fff;
+        padding: 2px 20px;
+        border-radius: 20px;
+        font-size: 1rem;
+
+    }
+
+    .link{
+       padding: 5px 15px;
+       font-size: 1rem;
+       border-radius: 20px;
+       display: inline-block;
+       text-shadow: 0.2px 0.2px black;
+   }
+    
+    .hero-section a:hover{
+        transform: translateY(50%);
+        
+    }
+    
+    .hero-section p{
+        padding-bottom: 2rem;}
+
+    .about-section{
+
+        
+        background: rgb(253, 252, 250);
+        color: black; 
+       margin: unset;
+       
+        
+    }
+
+    .about-section h2{
+     padding-bottom: 1rem;
+     text-align: center;
+     font-size: 1rem;
+    }
+     
+    .about-section p{
+       
+    }
+    .containerA{
+        display: block;
+       margin-bottom: 2rem;
+     background: rgb(253, 252, 250);
+       color: black;
+       margin: unset;
+       padding: unset;
+    }
+
+    .containerA h3{
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .containerB{
+        display: block;
+     margin-bottom: unset;
+       padding: unset;
+       color: #fff;
+       padding: 2rem 0 7rem 2rem;
+    }
+
+    .containerB ul {
+        margin-top: 2rem;
+    }
+
+    .containerB h2{
+        text-align: unset;
+}
+
+.containerB ul {
+    margin-top: 2rem;
+}
+
+.containerB h2{
+    text-align: unset;
+  
+   
+}
+
+.contB-content h3{
+    padding-top: 7rem;
+    text-transform: uppercase;
+}
+
+.contB-content p{
+    margin-bottom: 1.7rem;
+}
+
+
+
+#title{
+
+    font-size: 1.5rem;
+}
+.approach-section h2{
+text-align: unset;
+padding-bottom: 1rem;
+
+}
+
+.containerC{
+display: block;
+text-align: center;
+padding: 2rem 0rem 7rem 2rem;
+
+
+}
+
+.containerC h3{
+padding-bottom: 1rem;
+}
+
+.containerD{
+display:block;
+padding: 2rem 0rem 7rem 2rem;
+margin: unset;
+
+}
+.platform-section{
+ background: rgb(38, 36, 36);
+ color: #fff;
+ padding: unset;
+ margin: unset;
+
+
+}
+
+.vision-section{
+background: rgb(249, 248, 248);
+color: black;
+padding: 7rem 0rem 7rem 2rem;
+
+}
+
+.containerV{
+display: block;
+
+}
+
+
+.contact-section{
+ 
+padding: 2rem 0rem 7rem 2rem;
+
+}
+.containerE {
+
+display: block;
+
+
+}
+
+.card h2{
+text-align: left;
+}
+#my-img{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid lightskyblue;
+}
+
+.card-img{
+    width: 150px;
+}
+
+
+
+.card ul {
+   
+    
+}
+
+.card li{
+    padding-top: 1rem;
+}
+
+.audit, #p1{
+    padding: 1rem 0;
+}
+
+.cont-img{
+    width: 50%;
+    padding-left:5rem ;
+}
+.stats-img{
+width: 100%;
+}
+
+#hideC{
+display: none;
+}
+}
+
